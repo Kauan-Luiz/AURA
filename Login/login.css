@@ -1,0 +1,146 @@
+body {  
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    width: 450px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)); 
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-radius: 40px 0 0 40px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    background-color: #fff;
+}
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    background-position: center;
+    background-size: cover;
+   
+    
+
+
+}
+.img{
+    height: 450px;
+    width: 450px;  
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    overflow: hidden;
+    position: relative;
+    background-image: url(https://www.novamap.eu/wp-content/uploads/2020/10/correspondance_unifiee.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 26pt;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.label-login {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 30px;
+    margin-top: 80px;
+
+}
+
+.label-login::before {  
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+input {
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.button-login {
+    background: linear-gradient(45deg, #0adce4, #008cff); /* Gradiente */
+    color: #fff; /* Branco */
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-login:hover {
+    background: linear-gradient(45deg, #008cff, #0adce4);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3)
+}
+
+.button-cadastro {
+    background: linear-gradient(45deg, #0adce4, #008cff); /* Gradiente */
+    color: #fff; /* Branco */
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+  }
+  
+  
+  .button-cadastro:hover {
+    background: linear-gradient(45deg, #008cff, #0adce4);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .background { 
+    background-image: url(https://wallpapercave.com/wp/wp9163625.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+  }
