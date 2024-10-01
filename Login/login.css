@@ -10,6 +10,7 @@ body {
     background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Fgradient-background&psig=AOvVaw22vIDmt0bghgIpxZbhO1oz&ust=1726620843195000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMig0vzhyIgDFQAAAAAdAAAAABAE);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #fff;
 }
 
 .login {
@@ -22,7 +23,7 @@ body {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)); 
     backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-radius: 40px 0 0 40px;
     border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+   
     background-color: #fff;
 }
 
@@ -30,6 +31,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: #2f0888 solid 2px;
+    
+    border-radius: 40px;
 }
 
 img {
@@ -42,7 +46,8 @@ img {
 }
 .video{
     height: 100%;
-    width: 800px;  
+    width: 800px;
+     
     
     
 
@@ -108,7 +113,7 @@ input {
 
 .button-login:hover {
     background: linear-gradient(45deg, #2f0888, #c703e0);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3)
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .button-cadastro {
@@ -136,7 +141,8 @@ input {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    height: 450px;
+    height: 100%;
     width: 450px;
+    box-shadow: 0 6px 12px rgba(140, 0, 158, 0.3); 
     
   }

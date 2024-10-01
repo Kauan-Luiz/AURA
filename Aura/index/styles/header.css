@@ -24,7 +24,7 @@
 }
 
 header{
-    background-image: url(https://img.freepik.com/vetores-gratis/vetor-de-fundo-de-ombre-de-verao-vibrante_53876-105765.jpg);
+    background-image: url(https://img.freepik.com/fotos-gratis/conceito-de-plano-de-fundo-do-estudio-abstrato-vazio-luz-gradiente-roxo-estudio-quarto-fundo-para-o-produto-plano-de-fundo-liso-do-estudio_1258-80131.jpg?w=1380&t=st=1727742862~exp=1727743462~hmac=768ced13a55b1efec33725083ff26a247493233785869fcc3a2ada656ad14555);
     width: 100%;
     height: 500px;
     backdrop-filter: 10px;
@@ -99,6 +99,7 @@ nav ul li a {
 
 .slogan {
     font-size: 28pt;
+    color: #fff;
 }
 .social-icons{
    display: flex;
@@ -133,4 +134,8 @@ nav ul li a {
 .whatsapp-button i {
     margin-right: 10px;
     font-size: 20px;
+}
+
+h4 {
+    color: #fff;
 }
